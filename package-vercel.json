@@ -1,0 +1,21 @@
+{
+  "name": "pablexexchange",
+  "version": "2.1.0",
+  "description": "PablexExchange - Crypto Trading Platform",
+  "main": "server/simple-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/simple-server.js",
+    "dev": "node server/simple-server.js",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "better-sqlite3": "^12.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
